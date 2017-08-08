@@ -1,0 +1,1625 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>美团网</title>
+
+    <link href="css/index.css" type="text/css" rel="stylesheet"/>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <link href="css/font.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+
+    <!--顶部导航-->
+        <div class="head-nav">
+            <div class="head-nav-contain">
+                    <ul class="left-side">
+                        <li class="icon-star-empty"><a href="#">收藏美团</a></li>
+                        <li class="login-out"><a href="#"><span style="color: red;">登录</span></a></li>
+                        <li class="login-in"><a href="#">注册</a></li>
+                    </ul>
+                    <ul class="right-side">
+                        <li class="myOder"><a href="#"><span>我的订单</span></a></li>
+                        <li class="dropmenu">
+                            <a href="#" class="dropdown" >
+                                <span>我的美团</span>
+                                <i class="icon1"></i>
+                                <i class="seprate"></i>
+                            </a>
+                            <div class="toggle-menu" >
+                                <ul>
+                                    <li><a href="#">我的订单</a></li>
+                                    <li><a href="#">我的评价</a></li>
+                                    <li><a href="#">我的收藏</a></li>
+                                    <li><a href="#">抵用券</a></li>
+                                    <li><a href="#">我的余额</a></li>
+                                    <li><a href="#">账户设置</a></li>
+                                </ul>
+                            </div>
+
+                        </li>
+                        <li class="dropmenu">
+                            <a href="#" class="dropdown" >
+                                <span>最近浏览</span>
+                                <i class="icon1"></i>
+                                <i class="seprate"></i>
+                            </a>
+                            <div class="toggle-menu" >
+                                暂无浏览记录
+                            </div>
+                        </li>
+                        <li class="dropmenu">
+                            <a href="#" class="dropdown" >
+                                <span>联系客服</span>
+                                <i class="icon1"></i>
+                                <i class="seprate"></i>
+                            </a>
+                            <div class="toggle-menu" >
+                                <ul>
+                                    <li><a href="#">申请退款</a></li>
+                                    <li><a href="#">申请退换货</a></li>
+                                    <li><a href="#">查看美团券</a></li>
+                                    <li><a href="#">换绑手机号</a></li>
+                                    <li><a href="#">常见问题</a></li>
+                                </ul>
+                            </div>
+
+                        </li>
+                        <li class="dropmenu">
+                            <a href="#" class="dropdown" >
+                                <span>我是商家</span>
+                                <i class="icon1"></i>
+                                <i class="seprate"></i>
+                            </a>
+                            <div class="toggle-menu" >
+                                <ul>
+                                    <li><a href="#">登录商家中心</a></li>
+                                    <li><a href="#">我想合作</a></li>
+                                    <li><a href="#">手机免费开店</a></li>
+                                    <li><a href="#">商家营销平台</a></li>
+                                </ul>
+                            </div>
+
+                        </li>
+                        <li class="dropmenu">
+                            <a href="#" class="dropdown" >
+                                <span>代理商招募</span>
+                                <i class="icon1"></i>
+                                <i class="seprate"></i>
+                            </a>
+                            <div class="toggle-menu" >
+                                <ul>
+                                    <li><a href="#">餐饮代理商招募</a></li>
+                                    <li><a href="#">非餐饮代理商招募</a></li>
+                                </ul>
+                            </div>
+
+                        </li>
+                        <li class="dropmenu">
+                            <a href="#" class="dropdown" >
+                                <span>更多</span>
+                                <i class="icon1"></i>
+                                <i class="seprate"></i>
+                            </a>
+                            <div class="toggle-menu" >
+                                <ul>
+                                    <li><a href="#">手机版</a></li>
+                                    <li><a href="#">邮件订阅</a></li>
+                                    <li><a href="#">邀请好友</a></li>
+                                </ul>
+                            </div>
+
+                        </li>
+
+                    </ul>
+            </div>
+
+        </div>
+        <!--seach item -->
+
+        <div class="mast_branding" id="cite_mast_branding">
+            <h1><a href="#" class="cite_logo"><img src="images/logo.png" alt="西安美团网"/></a></h1>
+            <div class="city_info cf">
+                <h2><a href="#" class="city_info_name" >西安</a></h2>
+                <a href="#" class="city_info_toggle">切换城市</a>
+            </div>
+            <!--搜索框-->
+            <div class="search_box_all">
+                <div class="search_box">
+                    <form class="search_form cf" action="#">
+                        <div class="search_box_tabs">
+                            <ul class="search_box_tabs_sec">
+                                <li>商家</li>
+                                <li>团购</li>
+                            </ul>
+                            <span class="tri"></span>
+
+                        </div>
+                        <input type="text" class="search_content" value="请输入商家名称、地址等"/>
+                        <input type="submit" class="sub_search" value="搜索" />
+
+                    </form>
+                    <div class="tj_box">
+                        <div class="tj_box_cont">
+                            <a href="#" style="padding-left: 0;">李想大虾</a>
+                            <a href="#">粗粮王</a>
+                            <a href="#">克拉拉</a>
+                            <a href="#">花田煮</a>
+                            <a href="#">锦祥炝锅城</a>
+                            <a href="#">竹园村</a>
+                            <a href="#">蛋糕</a>
+                            <a href="#">火锅</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           <!--搜索框结束-->
+            <a class="site-commitment" href="#">
+                <span class="commitment-item1">
+
+                    随时退
+                </span>
+                <span class="commitment-item2">
+                   不满意免单
+
+                </span>
+                <span class="commitment-item3">
+                   过期退
+
+                </span>
+            </a>
+        </div>
+        <!--content nav-->
+
+        <div class="nav">
+            <div class="category">
+                <h2>全部分类</h2>
+                <div class="list">
+                    <div class="item">
+                        <div class="nav_level1" >
+                            <dl>
+                                <dt><a href="#">美食</a></dt>
+                                <dd><a href="#">自助餐</a></dd>
+                                <dd><a href="#">代金券</a></dd>
+                            </dl>
+                        </div>
+                        <div class="nav_level2" >
+                            <div class="nav_level2_item">
+                                <h3><a href="#">美食</a></h3>
+                                <ul>
+                                    <li><a href="#">代金券</a></li>
+                                    <li><a href="#">甜点饮品</a></li>
+                                    <li><a href="#" style="color:red">火锅</a></li>
+                                    <li><a href="#" style="color:red">自助餐</a></li>
+                                    <li><a href="#">小吃快餐</a></li>
+                                    <li><a href="#">日韩料理</a></li>
+                                    <li><a href="#">西餐</a></li>
+                                    <li><a href="#">聚餐宴请</a></li>
+                                    <li><a href="#">烧烤烤肉</a></li>
+                                    <li><a href="#">东北菜</a></li>
+                                    <li><a href="#">川湘菜</a></li>
+                                    <li><a href="#">江浙菜</a></li>
+                                    <li><a href="#">香锅烤鱼</a></li>
+                                    <li><a href="#">粤港菜</a></li>
+                                    <li><a href="#">中式烧烤/烤串</a></li>
+                                    <li><a href="#">西北菜</a></li>
+                                </ul>
+                                <ul>
+                                    <li><a href="#">咖啡吧茶馆</a></li>
+                                    <li><a href="#">京菜鲁菜</a></li>
+                                    <li><a href="#">云贵菜</a></li>
+                                    <li><a href="#">东南亚菜</a></li>
+                                    <li><a href="#">海鲜</a></li>
+                                    <li><a href="#">素食</a></li>
+                                    <li><a href="#">台湾/客家菜</a></li>
+                                    <li><a href="#">创意菜</a></li>
+                                    <li><a href="#">汤/粥/炖菜</a></li>
+                                    <li><a href="#">蒙餐</a></li>
+                                    <li><a href="#">新疆菜</a></li>
+                                    <li><a href="#">其他美食</a></li>
+                                </ul>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="item">
+                        <div class="nav_level1">
+                            <dl>
+                                <dt><a href="">酒店</a>/<a href="">客栈</a></dt>
+                                <dd><a href="">经济型酒店</a></dd>
+                            </dl>
+                        </div>
+                        <div class="nav_level2">
+                            <div class="nav_level2_item">
+                                <h3><a href="#">酒店</a></h3>
+                            <ul>
+                                <li><a href="#" style="color:red">经济型酒店</a></li>
+                                <li><a href="#">豪华酒店</a></li>
+                                <li><a href="#">主题酒店</a></li>
+                                <li><a href="#">度假酒店/度假村</a></li>
+                                <li><a href="#">公寓型酒店</a></li>
+                                <li><a href="#">客栈</a></li>
+                                <li><a href="#">青年旅社</a></li>
+                            </ul>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="item">
+                        <div class="nav_level1">
+                            <dl>
+                                <dt><a href="">猫眼电影</a>/<a href="">在线选座</a></dt>
+
+                            </dl>
+                        </div>
+                        <div class="nav_level2">
+                            <div class="nav_level2_item">
+                                <ul>
+                                    <h3><a href="#" style="display: inline-block">当前热映</a></h3>
+                                    <li><a href="#">三生三世十里桃花</a></li>
+                                    <li><a href="#">战狼2</a></li>
+                                    <li><a href="#">鲛珠传</a></li>
+                                    <li><a href="#">心理罪</a></li>
+                                    <li><a href="#">侠盗联盟</a></li>
+                                    <li><a href="#">建军大业</a></li>
+                                    <li><a href="#">我是马布里</a></li>
+                                    <li><a href="#">龙之战</a></li>
+                                    <li><a href="#">神偷奶爸3</a></li>
+                                    <li><a href="#">大耳朵图图之美食...</a></li>
+
+                                </ul>
+                                <ul>
+                                    <h3><a href="#" style="display: inline-block">热门影院</a></h3>
+                                    <li><a href="#">CGV影城</a></li>
+                                    <li><a href="#">SFC上影影城</a></li>
+                                    <li><a href="#">奥斯卡国际影城</a></li>
+                                    <li><a href="#">博纳国际影城</a></li>
+                                    <li><a href="#">橙天嘉禾影城</a></li>
+                                    <li><a href="#">大地影城</a></li>
+                                    <li><a href="#">和平电影城</a></li>
+                                    <li><a href="#">横店电影城</a></li>
+                                    <li><a href="#">恒大影城</a></li>
+                                    <li><a href="#">欢乐小马电影城</a></li>
+                                </ul>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="nav_level1">
+                            <dl>
+                                <dt><a href="">KTV</a></dt>
+                            </dl>
+                        </div>
+                        <div class="nav_level2">
+                            <div class="nav_level2_item">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="nav_level1">
+                            <dl>
+                                <dt><a href="">休闲娱乐</a></dt>
+                                <dd><a href="">足疗按摩</a></dd>
+                                <dd><a href="">温泉</a></dd>
+                            </dl>
+                        </div>
+                        <div class="nav_level2">
+                            <div class="nav_level2_item">
+                                <h3><a href="#">休闲娱乐</a></h3>
+                                <ul>
+                                    <li><a href="#" style="color:red;">KTV</a></li>
+                                    <li><a href="#">更多休闲娱乐</a></li>
+                                    <li><a href="#">演出赛事</a></li>
+                                    <li><a href="#">电玩/游戏厅</a></li>
+                                    <li><a href="#">运动健身</a></li>
+                                    <li><a href="#">私人影院</a></li>
+                                    <li><a href="#">足疗按摩</a></li>
+                                    <li><a href="#">洗浴/汗蒸</a></li>
+                                    <li><a href="#">中医养生</a></li>
+                                    <li><a href="#">茶馆</a></li>
+                                    <li><a href="#">棋牌室</a></li>
+                                    <li><a href="#">桌游</a></li>
+                                    <li><a href="#">轰趴馆</a></li>
+                                    <li><a href="#">温泉</a></li>
+                                    <li><a href="#">采摘/农家乐</a></li>
+                                    <li><a href="#">DIY手工坊</a></li>
+                                </ul>
+                                <ul>
+                                    <li><a href="#">密室逃脱</a></li>
+                                    <li><a href="#">酒吧</a></li>
+                                    <li><a href="#">真人CS</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="nav_level1">
+                            <dl>
+                                <dt><a href="">周边游</a>/<a href="">旅游</a></dt>
+
+                            </dl>
+                        </div>
+                        <div class="nav_level2">
+                            <div class="nav_level2_item">
+                                <h3><a href="#">周边游</a></h3>
+                                <ul>
+                                    <li><a href="#">温泉</a></li>
+                                    <li><a href="#">景点</a></li>
+                                    <li><a href="#">主题公园</a></li>
+                                    <li><a href="#">水上乐园</a></li>
+                                    <li><a href="#">动植物园</a></li>
+                                    <li><a href="#">海洋馆</a></li>
+                                    <li><a href="#">展览馆</a></li>
+                                    <li><a href="#">高空观景</a></li>
+                                    <li><a href="#">真人CS</a></li>
+                                    <li><a href="#">漂流</a></li>
+                                    <li><a href="#">农家乐</a></li>
+                                    <li><a href="#">其它游玩</a></li>
+                                </ul>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="nav_level1">
+                            <dl>
+                                <dt><a href="">机票</a></dt>
+                                <dd><a href="">国内机票</a></dd>
+                                <dd><a href="">国际机票</a></dd>
+                            </dl>
+                        </div>
+                        <div class="nav_level2">
+                            <div class="nav_level2_item">
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="item">
+                        <div class="nav_level1">
+                            <dl>
+                                <dt><a href="">生活服务</a></dt>
+                                <dd><a href="">婚纱摄影</a></dd>
+                                <dd><a href="">个性写真</a></dd>
+                            </dl>
+                        </div>
+                        <div class="nav_level2">
+                            <div class="nav_level2_item">
+                                <h3><a href="#">生活服务</a></h3>
+                                <ul>
+                                    <li><a href="#">婚纱摄影</a></li>
+                                    <li><a href="#">个性写真</a></li>
+                                    <li><a href="#">亲子摄影</a></li>
+                                    <li><a href="#">其它摄影</a></li>
+                                    <li><a href="#">培训课程</a></li>
+                                    <li><a href="#">其他生活</a></li>
+                                    <li><a href="#">汽车服务</a></li>
+                                    <li><a href="#">体检/齿科</a></li>
+                                    <li><a href="#">衣物/皮具洗护</a></li>
+                                    <li><a href="#">鲜花</a></li>
+                                    <li><a href="#">母婴亲子</a></li>
+                                    <li><a href="#">配镜</a></li>
+                                    <li><a href="#">照片冲印</a></li>
+                                    <li><a href="#">商场购物卡</a></li>
+                                    <li><a href="#">服饰鞋包</a></li>
+                                </ul>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="nav_level1">
+                            <dl>
+                                <dt><a href="">丽人</a></dt>
+                                <dd><a href="">美发</a></dd>
+                                <dd><a href="">美甲美睫</a></dd>
+                            </dl>
+                        </div>
+                        <div class="nav_level2">
+                            <div class="nav_level2_item">
+                                <h3><a href="#">丽人</a></h3>
+                                <ul>
+                                    <li><a href="#">美发</a></li>
+                                    <li><a href="#">美容美体</a></li>
+                                    <li><a href="#">美甲美睫</a></li>
+                                    <li><a href="#">瑜伽舞蹈</a></li>
+                                    <li><a href="#">瘦身纤体</a></li>
+                                    <li><a href="#">韩式定妆</a></li>
+                                    <li><a href="#">祛痘</a></li>
+                                    <li><a href="#">纹身</a></li>
+
+                                </ul>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="#">首页</a></li>
+                        <li><a href="#">今日新单</a></li>
+                        <li><a href="#">美食</a></li>
+                        <li><a href="#">身边外卖</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!--中间部分头部-->
+       <div class="top_content">
+           <div class="main">
+               <div class="content_nav">
+                   <dl class="hot-tuan">
+                       <dt>热门团购</dt>
+                       <dd><a href="">火锅</a></dd>
+                       <dd><a href="">小吃快餐</a></dd>
+                       <dd><a href="">自助餐</a></dd>
+                       <dd><a href="">甜点饮品</a></dd>
+                       <dd><a href="">西餐</a></dd>
+                       <dd><a href="">西北菜</a></dd>
+                       <dd><a href="">香锅烤鱼</a></dd>
+                       <dd><a href="">烧烤烤肉</a></dd>
+                       <dd><a href="">川湘菜</a></dd>
+
+                   </dl>
+                   <dl class="all-area">
+                       <dt>全部区域</dt>
+                       <dd><a href="">碑林区</a></dd>
+                       <dd><a href="">雁塔区</a></dd>
+                       <dd><a href="">高新区</a></dd>
+                       <dd><a href="">莲湖区</a></dd>
+                       <dd><a href="">未央区</a></dd>
+                       <dd><a href="">新城区</a></dd>
+                       <dd><a href="">灞桥区</a></dd>
+                       <dd><a href="">临潼区</a></dd>
+                       <dd><a href="">长安区</a></dd>
+                   </dl>
+                   <dl class="hot-business">
+                       <dt>热门商圈</dt>
+                       <dd><a href="">红旗厂</a></dd>
+                       <dd><a href="">赛高新区</a></dd>
+                       <dd><a href="">民乐园</a></dd>
+                       <dd><a href="">西稍门</a></dd>
+                       <dd><a href="">钟楼/鼓楼</a></dd>
+                       <dd><a href="">明光路</a></dd>
+                       <dd><a href="">城东客运站</a></dd>
+                       <dd><a href="">曲江新区</a></dd>
+                       <dd><a href="">电视塔</a></dd>
+
+                   </dl>
+               </div>
+               <div class="slide" id="slide">
+                   <div class="promotion">
+                       <ul>
+                           <li>
+                               <div class="left slide_content">
+                                   <a href="#"><img src="images/01.jpg"/></a>
+                                   <div class="title">
+                                       <a href="#">佰人王串串香火锅</a>
+                                       <p>50元代金券1张，除酒水饮料外全场通...</p>
+                                   </div>
+                                   <span class="price">￥<strong>45</strong></span>
+                               </div>
+                               <div class="right slide_content">
+                                   <a href="#"><img src="images/02.jpg"/></a>
+                                   <div class="title">
+                                       <a href="#">花田煮.臻牛</a>
+                                       <p>100元火锅代金券1张，可叠加使用...</p>
+                                   </div>
+                                   <span class="price">￥<strong>49.9</strong></span>
+                               </div>
+                           </li>
+                           <li>
+                               <div class="left slide_content">
+                                   <a href="#"><img src="images/03.jpg"/></a>
+                                   <div class="title">
+                                       <a href="#">浪淘鲜海鲜烧烤</a>
+                                       <p>100元午市代金券1张，可叠加使用...</p>
+                                   </div>
+                                   <span class="price">￥<strong>68</strong></span>
+                               </div>
+                               <div class="right slide_content">
+                                   <a href="#"><img src="images/04.jpg"/></a>
+                                   <div class="title">
+                                       <a href="#">重庆渝味晓宇火锅</a>
+                                       <p>100元火锅代金券1张，可叠加使用，提供..</p>
+                                   </div>
+                                   <span class="price">￥<strong>88</strong></span>
+                               </div>
+                           </li>
+                           <li>
+                               <div class="left slide_content">
+                                   <a href="#"><img src="images/05.jpg"/></a>
+                                   <div class="title">
+                                       <a href="#">老潼关肉夹馍</a>
+                                       <p>肉夹馍纯瘦1份，提供免费WiFi</p>
+                                   </div>
+                                   <span class="price">￥<strong>8</strong></span>
+                               </div>
+                               <div class="right slide_content">
+                                   <a href="#"><img src="images/06.jpg"/></a>
+                                   <div class="title">
+                                       <a href="#">魏家凉皮</a>
+                                       <p>肉夹馍纯瘦1份，提供免费WiFi</p>
+                                   </div>
+                                   <span class="price">￥<strong>10</strong></span>
+                               </div>
+                           </li>
+                           <li>
+                               <div class="left slide_content">
+                                   <a href="#"><img src="images/07.jpg"/></a>
+                                   <div class="title">
+                                       <a href="#">千家粗粮王</a>
+                                       <p>100元代金券1张，可叠加使用...</p>
+                                   </div>
+                                   <span class="price">￥<strong>99.9</strong></span>
+                               </div>
+                               <div class="right slide_content">
+                                   <a href="#"><img src="images/08.jpg"/></a>
+                                   <div class="title">
+                                       <a href="#">KingLove金乐</a>
+                                       <p>蛋糕9选1，约10英寸，圆形</p>
+                                   </div>
+                                   <span class="price">￥<strong>128</strong></span>
+                               </div>
+                           </li>
+                           <li>
+                               <div class="left slide_content">
+                                   <a href="#"><img src="images/09.jpg"/></a>
+                                   <div class="title">
+                                       <a href="#">JR新干线.捷运便当</a>
+                                       <p>双人餐，提供免费WiFi</p>
+                                   </div>
+                                   <span class="price">￥<strong>88</strong></span>
+                               </div>
+                               <div class="right slide_content">
+                                   <a href="#"><img src="images/10.jpg"/></a>
+                                   <div class="title">
+                                       <a href="#">百味香川菜馆</a>
+                                       <p>4人套餐，提供免费WiFi</p>
+                                   </div>
+                                   <span class="price">￥<strong>88</strong></span>
+                               </div>
+                           </li>
+                           <li>
+                               <div class="left slide_content">
+                                   <a href="#"><img src="images/11.jpg"/></a>
+                                   <div class="title">
+                                       <a href="#">丽江故事私房菜</a>
+                                       <p>2-3人火锅套餐，提供免费WiFi</p>
+                                   </div>
+                                   <span class="price">￥<strong>110</strong></span>
+                               </div>
+                               <div class="right slide_content">
+                                   <a href="#"><img src="images/12.jpg"/></a>
+                                   <div class="title">
+                                       <a href="#">川香奇香</a>
+                                       <p>30元代金券一张，全场通用，可叠加使用</p>
+                                   </div>
+                                   <span class="price">￥<strong>28</strong></span>
+                               </div>
+                           </li>
+                       </ul>
+                   </div>
+                   <div class="prev_next">
+                       <a href="#" class="prev" style="opacity: 0;"></a>
+                       <a href="#" class="next" style="opacity: 0;">
+                           <span class="page">1</span>
+                           <span>/6</span>
+                       </a>
+                   </div>
+               </div>
+
+
+           </div>
+           <div class="r_side">
+               <img src="images/wximg.png"/>
+           </div>
+           <a href="#" class="wrapper">
+           <div class="wrapper_title">
+               <div class="new_title">每日上新</div>
+               <div class="deputy">吃喝玩乐最低价</div>
+           </div>
+           <img src="images/new.png"/>
+           </a>
+       </div>
+       <!--中间部分主要内容-->
+       <div class="content_body">
+           <div class="category_list">
+
+                   <div class="category_floor">
+                       <div class="category_floor_head cf">
+                           <a href="#" class="sub_title">
+                               <i></i>
+                               美食
+                           </a>
+                           <ul class="sub_categories">
+                               <li class="sub_categories_cell"><a href="#">美食</a></li>
+                               <li class="sub_categories_cell"><a href="#">代金券</a></li>
+                               <li class="sub_categories_cell"><a href="#">自助餐</a></li>
+                               <li class="sub_categories_cell"><a href="#">火锅</a></li>
+                               <li class="sub_categories_cell"><a href="#">烧烤烤肉</a></li>
+                               <li class="sub_categories_cell"><a href="#">香锅烤鱼</a></li>
+                               <li class="sub_categories_cell"><a href="#">西餐</a></li>
+                               <li class="sub_categories_cell" >
+                                   <a href="#" style="border-right: none;" class="ifo_all">
+                                       全部
+                                       <i></i>
+                                   </a>
+
+                               </li>
+                           </ul>
+
+                       </div>
+                       <div class="category_floor_body">
+                           <div class="category_details cf">
+                               <div class="deal_tile">
+                                   <a href="#">
+                                       <img src="images/detail/01.png"/>
+                                       <span class="deal_mark">
+                                           <span class="mark_1">多套餐</span>
+                                           <span class="mark_2">免预约</span>
+                                       </span>
+                                   </a>
+                                   <h3 class="detail_title">
+                                      <a href="#">
+                                          <span class="x_title">[20店通用]华莱士</span>
+                                          <span class="short_title">人气单人餐，提供免费WiFi</span>
+                                      </a>
+                                   </h3>
+                                   <p class="deal_tile_title">
+                                       <span class="tile_price">
+                                           ￥<strong>9.9</strong>
+                                       </span>
+                                       <span class="value">
+                                           门店价
+                                           <del>
+                                               <span>￥</span>17
+                                           </del>
+                                       </span>
+                                       <span class="sales">
+                                           已售<strong class="num">453430</strong>
+                                       </span>
+
+                                   </p>
+                                   <div class="deal_tile_extra">
+                                       <p class="extra_inner">
+                                           <a href="#">
+                                               <span class="rate_inf_bar">
+                                                   <span class="rate_stars"></span>
+                                               </span>
+                                               <span class="rate_count">74983人评价</span>
+                                           </a>
+                                       </p>
+                                   </div>
+
+                               </div>
+                               <div class="deal_tile">
+                                   <a href="#">
+                                       <img src="images/detail/02.png"/>
+                                       <span class="deal_mark">
+
+                                       </span>
+                                   </a>
+                                   <h3 class="detail_title">
+                                       <a href="#">
+                                           <span class="x_title">[5店通用]嘻多多</span>
+                                           <span class="short_title">全部7选1，建议单人使用</span>
+                                       </a>
+                                   </h3>
+                                   <p class="deal_tile_title">
+                                       <span class="tile_price">
+                                           ￥<strong>16.9</strong>
+                                       </span>
+                                       <span class="value">
+                                           门店价
+                                           <del>
+                                               <span>￥</span>29
+                                           </del>
+                                       </span>
+                                       <span class="sales">
+                                           已售<strong class="num">318001</strong>
+                                       </span>
+
+                                   </p>
+                                   <div class="deal_tile_extra">
+                                       <p class="extra_inner">
+                                           <a href="#">
+                                               <span class="rate_inf_bar">
+                                                   <span class="rate_stars"></span>
+                                               </span>
+                                               <span class="rate_count">58806人评价</span>
+                                           </a>
+                                       </p>
+                                   </div>
+                           </div>
+                               <div class="deal_tile">
+                                   <a href="#">
+                                       <img src="images/detail/03.png"/>
+                                       <span class="deal_mark">
+                                           <span class="mark_1">多套餐</span>
+                                           <span class="mark_2">免预约</span>
+                                       </span>
+                                   </a>
+                                   <h3 class="detail_title">
+                                       <a href="#">
+                                           <span class="x_title">[3店通用]Rikuro瑞可爷爷店</span>
+                                           <span class="short_title">起司蛋糕1个，约7寸，圆形</span>
+                                       </a>
+                                   </h3>
+                                   <p class="deal_tile_title">
+                                       <span class="tile_price">
+                                           ￥<strong>29.9</strong>
+                                       </span>
+                                       <span class="value">
+                                           门店价
+                                           <del>
+                                               <span>￥</span>39
+                                           </del>
+                                       </span>
+                                       <span class="sales">
+                                           已售<strong class="num">235495</strong>
+                                       </span>
+
+                                   </p>
+                                   <div class="deal_tile_extra">
+                                       <p class="extra_inner">
+                                           <a href="#">
+                                               <span class="rate_inf_bar">
+                                                   <span class="rate_stars" style="width:90%;"></span>
+                                               </span>
+                                               <span class="rate_count">67827人评价</span>
+                                           </a>
+                                       </p>
+                                   </div>
+                               </div>
+                               <div class="deal_tile">
+                                   <a href="#">
+                                       <img src="images/detail/04.png"/>
+                                       <span class="deal_mark">
+                                           <span class="mark_1">多套餐</span>
+                                           <span class="mark_2">免预约</span>
+                                       </span>
+                                   </a>
+                                   <h3 class="detail_title">
+                                       <a href="#">
+                                           <span class="x_title">[钟楼/鼓楼]毅祥斋老孙家泡馍</span>
+                                           <span class="short_title">单人牛肉泡馍，提供免费WiFi</span>
+                                       </a>
+                                   </h3>
+                                   <p class="deal_tile_title">
+                                       <span class="tile_price">
+                                           ￥<strong>9.8</strong>
+                                       </span>
+                                       <span class="value">
+                                           门店价
+                                           <del>
+                                               <span>￥</span>25
+                                           </del>
+                                       </span>
+                                       <span class="sales">
+                                           已售<strong class="num">88171</strong>
+                                       </span>
+
+                                   </p>
+                                   <div class="deal_tile_extra">
+                                       <p class="extra_inner">
+                                           <a href="#">
+                                               <span class="rate_inf_bar">
+                                                   <span class="rate_stars"></span>
+                                               </span>
+                                               <span class="rate_count">13813人评价</span>
+                                           </a>
+                                       </p>
+                                   </div>
+                               </div>
+                               <div class="deal_tile">
+                                   <a href="#">
+                                       <img src="images/detail/05.png"/>
+                                       <span class="deal_mark">
+                                           <span class="mark_1">多套餐</span>
+                                           <span class="mark_2">免预约</span>
+                                       </span>
+                                   </a>
+                                   <h3 class="detail_title">
+                                       <a href="#">
+                                           <span class="x_title">[小寨]鱼厂</span>
+                                           <span class="short_title">果仁冰粉一份，提供免费WiFi</span>
+                                       </a>
+                                   </h3>
+                                   <p class="deal_tile_title">
+                                       <span class="tile_price">
+                                           ￥<strong>15.8</strong>
+                                       </span>
+                                       <span class="value">
+                                           门店价
+                                           <del>
+                                               <span>￥</span>18
+                                           </del>
+                                       </span>
+                                       <span class="sales">
+                                           已售<strong class="num">26</strong>
+                                       </span>
+
+                                   </p>
+                                   <div class="deal_tile_extra">
+                                       <p class="extra_inner">
+                                           <a href="#">
+                                               <span class="rate_inf_bar">
+                                                   <span class="rate_stars" style="width:60%;"></span>
+                                               </span>
+                                               <span class="rate_count">25人评价</span>
+                                           </a>
+                                       </p>
+                                   </div>
+                               </div>
+                               <div class="deal_tile">
+                                   <a href="#">
+                                       <img src="images/detail/06.png"/>
+                                       <span class="deal_mark">
+                                           <span class="mark_2">免预约</span>
+                                       </span>
+                                   </a>
+                                   <h3 class="detail_title">
+                                       <a href="#">
+                                           <span class="x_title">[7店通用]千家粗粮王</span>
+                                           <span class="short_title">DIY蛋糕1个，提供免费WiFi</span>
+                                       </a>
+                                   </h3>
+                                   <p class="deal_tile_title">
+                                       <span class="tile_price">
+                                           ￥<strong>29.9</strong>
+                                       </span>
+                                       <span class="value">
+                                           门店价
+                                           <del>
+                                               <span>￥</span>49
+                                           </del>
+                                       </span>
+                                       <span class="sales">
+                                           已售<strong class="num">88</strong>
+                                       </span>
+
+                                   </p>
+                                   <div class="deal_tile_extra">
+                                       <p class="extra_inner">
+                                           <a href="#">
+                                               <span class="rate_inf_bar">
+                                                   <span class="rate_stars" style="width: 95%;"></span>
+                                               </span>
+                                               <span class="rate_count">40人评价</span>
+                                           </a>
+                                       </p>
+                                   </div>
+                               </div>
+                               <div class="deal_tile">
+                                   <a href="#">
+                                       <img src="images/detail/07.png"/>
+                                       <span class="deal_mark">
+                                           <span class="mark_1">多套餐</span>
+                                           <span class="mark_2">免预约</span>
+                                       </span>
+                                   </a>
+                                   <h3 class="detail_title">
+                                       <a href="#">
+                                           <span class="x_title">[汉城路沿线]红透天自助涮烤</span>
+                                           <span class="short_title">午市单人餐，提供免费WiFi</span>
+                                       </a>
+                                   </h3>
+                                   <p class="deal_tile_title">
+                                       <span class="tile_price">
+                                           ￥<strong>40.8</strong>
+                                       </span>
+                                       <span class="value">
+                                           门店价
+                                           <del>
+                                               <span>￥</span>49
+                                           </del>
+                                       </span>
+                                       <span class="sales">
+                                           已售<strong class="num">13117</strong>
+                                       </span>
+
+                                   </p>
+                                   <div class="deal_tile_extra">
+                                       <p class="extra_inner">
+                                           <a href="#">
+                                               <span class="rate_inf_bar">
+                                                   <span class="rate_stars"></span>
+                                               </span>
+                                               <span class="rate_count">491人评价</span>
+                                           </a>
+                                       </p>
+                                   </div>
+                               </div>
+                               <div class="deal_tile">
+                                   <a href="#">
+                                       <img src="images/detail/08.png"/>
+                                       <span class="deal_mark">
+                                           <span class="mark_1">多套餐</span>
+                                           <span class="mark_2">免预约</span>
+                                       </span>
+                                   </a>
+                                   <h3 class="detail_title">
+                                       <a href="#">
+                                           <span class="x_title">[电子城]盛运涮烤自助餐厅</span>
+                                           <span class="short_title">盛运自助/盛运自助2选1，提供免费WiFi</span>
+                                       </a>
+                                   </h3>
+                                   <p class="deal_tile_title">
+                                       <span class="tile_price">
+                                           ￥<strong>46.9</strong>
+                                       </span>
+                                       <span class="value">
+                                           门店价
+                                           <del>
+                                               <span>￥</span>49
+                                           </del>
+                                       </span>
+                                       <span class="sales">
+                                           已售<strong class="num">206620</strong>
+                                       </span>
+
+                                   </p>
+                                   <div class="deal_tile_extra">
+                                       <p class="extra_inner">
+                                           <a href="#">
+                                               <span class="rate_inf_bar">
+                                                   <span class="rate_stars"></span>
+                                               </span>
+                                               <span class="rate_count">17992人评价</span>
+                                           </a>
+                                       </p>
+                                   </div>
+                               </div>
+                               <div class="deal_tile">
+                                   <a href="#">
+                                       <img src="images/detail/09.png"/>
+                                       <span class="deal_mark">
+                                           <span class="mark_1">多套餐</span>
+                                           <span class="mark_2">免预约</span>
+                                       </span>
+                                   </a>
+                                   <h3 class="detail_title">
+                                       <a href="#">
+                                           <span class="x_title">[2店通用]火焰山自助美食汇</span>
+                                           <span class="short_title">周一至周五午餐，提供免费WiFi</span>
+                                       </a>
+                                   </h3>
+                                   <p class="deal_tile_title">
+                                       <span class="tile_price">
+                                           ￥<strong>50</strong>
+                                       </span>
+                                       <span class="value">
+                                           门店价
+                                           <del>
+                                               <span>￥</span>59
+                                           </del>
+                                       </span>
+                                       <span class="sales">
+                                           已售<strong class="num">31872</strong>
+                                       </span>
+
+                                   </p>
+                                   <div class="deal_tile_extra">
+                                       <p class="extra_inner">
+                                           <a href="#">
+                                               <span class="rate_inf_bar">
+                                                   <span class="rate_stars"></span>
+                                               </span>
+                                               <span class="rate_count">2204人评价</span>
+                                           </a>
+                                       </p>
+                                   </div>
+                               </div>
+                               <div class="deal_tile">
+                                   <a href="#">
+                                       <img src="images/detail/10.png"/>
+                                       <span class="deal_mark">
+                                           <span class="mark_1">多套餐</span>
+                                           <span class="mark_2">免预约</span>
+                                       </span>
+                                   </a>
+                                   <h3 class="detail_title">
+                                       <a href="#">
+                                           <span class="x_title">[5店通用]新辣道鱼火锅</span>
+                                           <span class="short_title">100元代金券1张，全场通用</span>
+                                       </a>
+                                   </h3>
+                                   <p class="deal_tile_title">
+                                       <span class="tile_price">
+                                           ￥<strong>65</strong>
+                                       </span>
+                                       <span class="value">
+                                           门店价
+                                           <del>
+                                               <span>￥</span>100
+                                           </del>
+                                       </span>
+                                       <span class="sales">
+                                           已售<strong class="num">20900</strong>
+                                       </span>
+
+                                   </p>
+                                   <div class="deal_tile_extra">
+                                       <p class="extra_inner">
+                                           <a href="#">
+                                               <span class="rate_inf_bar">
+                                                   <span class="rate_stars" style="width: 95%;"></span>
+                                               </span>
+                                               <span class="rate_count">1907人评价</span>
+                                           </a>
+                                       </p>
+                                   </div>
+                               </div>
+                               <div class="deal_tile">
+                                   <a href="#">
+                                       <img src="images/detail/11.png"/>
+                                       <span class="deal_mark">
+                                           <span class="mark_1">多套餐</span>
+                                           <span class="mark_2">免预约</span>
+                                       </span>
+                                   </a>
+                                   <h3 class="detail_title">
+                                       <a href="#">
+                                           <span class="x_title">[小寨]玩味音乐海鲜自助火锅</span>
+                                           <span class="short_title">午夜狂欢场，提供免费WiFi</span>
+                                       </a>
+                                   </h3>
+                                   <p class="deal_tile_title">
+                                       <span class="tile_price">
+                                           ￥<strong>52</strong>
+                                       </span>
+                                       <span class="value">
+                                           门店价
+                                           <del>
+                                               <span>￥</span>59
+                                           </del>
+                                       </span>
+                                       <span class="sales">
+                                           已售<strong class="num">71151</strong>
+                                       </span>
+
+                                   </p>
+                                   <div class="deal_tile_extra">
+                                       <p class="extra_inner">
+                                           <a href="#">
+                                               <span class="rate_inf_bar">
+                                                   <span class="rate_stars"></span>
+                                               </span>
+                                               <span class="rate_count">4535人评价</span>
+                                           </a>
+                                       </p>
+                                   </div>
+                               </div>
+                               <div class="deal_tile">
+                                   <a href="#">
+                                       <img src="images/detail/12.png"/>
+                                       <span class="deal_mark">
+                                           <span class="mark_1">多套餐</span>
+                                           <span class="mark_2">免预约</span>
+                                       </span>
+                                   </a>
+                                   <h3 class="detail_title">
+                                       <a href="#">
+                                           <span class="x_title">[5店通用]锦祥炝锅城</span>
+                                           <span class="short_title">炝锅鱼套餐，建议2-3人使用，提供免费WiFi</span>
+                                       </a>
+                                   </h3>
+                                   <p class="deal_tile_title">
+                                       <span class="tile_price">
+                                           ￥<strong>109</strong>
+                                       </span>
+                                       <span class="value">
+                                           门店价
+                                           <del>
+                                               <span>￥</span>187
+                                           </del>
+                                       </span>
+                                       <span class="sales">
+                                           已售<strong class="num">28443</strong>
+                                       </span>
+
+                                   </p>
+                                   <div class="deal_tile_extra">
+                                       <p class="extra_inner">
+                                           <a href="#">
+                                               <span class="rate_inf_bar">
+                                                   <span class="rate_stars"></span>
+                                               </span>
+                                               <span class="rate_count">4098人评价</span>
+                                           </a>
+                                       </p>
+                                   </div>
+                               </div>
+
+                            </div>
+                       </div>
+                       <div class="category_floor_footer cf">
+                           <a href="#">
+                               <span>
+                                   更多美食团购请点击查看
+                                   <i class="more_icon"></i>
+                               </span>
+                           </a>
+
+                       </div>
+                   </div>
+
+                   <div class="category_floor">
+                   <div class="category_floor_head cf">
+                       <a href="#" class="sub_title">
+                           <i></i>
+                           酒店
+                       </a>
+                       <ul class="sub_categories">
+                           <li class="sub_categories_cell"><a href="#">酒店</a></li>
+                           <li class="sub_categories_cell"><a href="#">经济型酒店</a></li>
+                           <li class="sub_categories_cell"><a href="#">主题酒店</a></li>
+                           <li class="sub_categories_cell"><a href="#">豪华酒店</a></li>
+
+                           <li class="sub_categories_cell" >
+                               <a href="#" style="border-right: none;" class="ifo_all">
+                                   全部
+                                   <i></i>
+                               </a>
+
+                           </li>
+                       </ul>
+
+                   </div>
+                   <div class="category_floor_body">
+                       <div class="category_details cf">
+                           <div class="deal_tile">
+                               <a href="#">
+                                   <img src="images/hotel/05.png"/>
+
+                               </a>
+                               <h3 class="detail_title">
+                                   <a href="#">
+                                       <span class="x_title">[南大学城]私人影咖主题酒店</span>
+                                       <span class="short_title">豪华主题大包间（大床房）钟点房3小时</span>
+                                   </a>
+                               </h3>
+                               <p class="deal_tile_title">
+                                       <span class="tile_price">
+                                           ￥<strong>58</strong>
+                                       </span>
+                                       <span class="value">
+                                           门店价
+                                           <del>
+                                               <span>￥</span>88
+                                           </del>
+                                       </span>
+                                       <span class="sales">
+                                           已售<strong class="num">37</strong>
+                                       </span>
+
+                               </p>
+                               <div class="deal_tile_extra">
+                                   <p class="extra_inner">
+                                       <a href="#">
+                                               <span class="rate_inf_bar">
+                                                   <span class="rate_stars"></span>
+                                               </span>
+                                           <span class="rate_count">6人评价</span>
+                                       </a>
+                                   </p>
+                               </div>
+
+                           </div>
+                           <div class="deal_tile">
+                               <a href="#">
+                                   <img src="images/hotel/02.png"/>
+                                       <span class="deal_mark">
+
+                                       </span>
+                               </a>
+                               <h3 class="detail_title">
+                                   <a href="#">
+                                       <span class="x_title">[钟楼/鼓楼]布丁酒店</span>
+                                       <span class="short_title">钟点房4小时，房型4选1，免费WiFi。</span>
+                                   </a>
+                               </h3>
+                               <p class="deal_tile_title">
+                                       <span class="tile_price">
+                                           ￥<strong>49</strong>
+                                       </span>
+                                       <span class="value">
+                                           门店价
+                                           <del>
+                                               <span>￥</span>59
+                                           </del>
+                                       </span>
+                                       <span class="sales">
+                                           已售<strong class="num">40</strong>
+                                       </span>
+
+                               </p>
+                               <div class="deal_tile_extra">
+                                   <p class="extra_inner">
+                                       <a href="#">
+                                               <span class="rate_inf_bar">
+                                                   <span class="rate_stars"></span>
+                                               </span>
+                                           <span class="rate_count">6人评价</span>
+                                       </a>
+                                   </p>
+                               </div>
+                           </div>
+                           <div class="deal_tile">
+                               <a href="#">
+                                   <img src="images/hotel/03.png"/>
+
+                               </a>
+                               <h3 class="detail_title">
+                                   <a href="#">
+                                       <span class="x_title">[钟楼/鼓楼]钟楼八水公寓</span>
+                                       <span class="short_title">优选大床房（空调独卫）钟点房3小时，免费wifi</span>
+                                   </a>
+                               </h3>
+                               <p class="deal_tile_title">
+                                       <span class="tile_price">
+                                           ￥<strong>58</strong>
+                                       </span>
+                                       <span class="value">
+                                           门店价
+                                           <del>
+                                               <span>￥</span>80
+                                           </del>
+                                       </span>
+                                       <span class="sales">
+                                           已售<strong class="num">0</strong>
+                                       </span>
+
+                               </p>
+                               <div class="deal_tile_extra">
+                                   <p class="extra_inner">
+                                       <a href="#">
+
+                                           <span class="rate_count">暂无评价</span>
+                                       </a>
+                                   </p>
+                               </div>
+                           </div>
+                           <div class="deal_tile">
+                               <a href="#">
+                                   <img src="images/hotel/04.png"/>
+
+                               </a>
+                               <h3 class="detail_title">
+                                   <a href="#">
+                                       <span class="x_title">[南大街]南方酒店</span>
+                                       <span class="short_title">钟点房3小时，舒适双床房（中餐晚餐优惠）</span>
+                                   </a>
+                               </h3>
+                               <p class="deal_tile_title">
+                                       <span class="tile_price">
+                                           ￥<strong>60</strong>
+                                       </span>
+                                       <span class="value">
+                                           门店价
+                                           <del>
+                                               <span>￥</span>130
+                                           </del>
+                                       </span>
+                                       <span class="sales">
+                                           已售<strong class="num">181</strong>
+                                       </span>
+
+                               </p>
+                               <div class="deal_tile_extra">
+                                   <p class="extra_inner">
+                                       <a href="#">
+                                               <span class="rate_inf_bar">
+                                                   <span class="rate_stars" style="width:95%;"></span>
+                                               </span>
+                                           <span class="rate_count">29人评价</span>
+                                       </a>
+                                   </p>
+                               </div>
+                           </div>
+                           <div class="deal_tile">
+                               <a href="#">
+                                   <img src="images/hotel/01.png"/>
+
+                               </a>
+                               <h3 class="detail_title">
+                                   <a href="#">
+                                       <span class="x_title">[钟楼/鼓楼]秦钟府公寓酒店</span>
+                                       <span class="short_title">温馨大床房（空调独卫），钟点房3小时，提供免费WiFi</span>
+                                   </a>
+                               </h3>
+                               <p class="deal_tile_title">
+                                       <span class="tile_price">
+                                           ￥<strong>60</strong>
+                                       </span>
+                                       <span class="value">
+                                           门店价
+                                           <del>
+                                               <span>￥</span>108
+                                           </del>
+                                       </span>
+                                       <span class="sales">
+                                           已售<strong class="num">0</strong>
+                                       </span>
+
+                               </p>
+                               <div class="deal_tile_extra">
+                                   <p class="extra_inner">
+                                       <a href="#">
+
+                                           <span class="rate_count">暂无评价</span>
+                                       </a>
+                                   </p>
+                               </div>
+                           </div>
+                           <div class="deal_tile">
+                               <a href="#">
+                                   <img src="images/hotel/06.png"/>
+
+                               </a>
+                               <h3 class="detail_title">
+                                   <a href="#">
+                                       <span class="x_title">[南大学城]汉庭</span>
+                                       <span class="short_title">高级大床房钟点房4小时，提供免费WiFi</span>
+                                   </a>
+                               </h3>
+                               <p class="deal_tile_title">
+                                       <span class="tile_price">
+                                           ￥<strong>70</strong>
+                                       </span>
+                                       <span class="value">
+                                           门店价
+                                           <del>
+                                               <span>￥</span>108
+                                           </del>
+                                       </span>
+                                       <span class="sales">
+                                           已售<strong class="num">81</strong>
+                                       </span>
+
+                               </p>
+                               <div class="deal_tile_extra">
+                                   <p class="extra_inner">
+                                       <a href="#">
+                                               <span class="rate_inf_bar">
+                                                   <span class="rate_stars" style="width: 95%;"></span>
+                                               </span>
+                                           <span class="rate_count">6人评价</span>
+                                       </a>
+                                   </p>
+                               </div>
+                           </div>
+                           <div class="deal_tile">
+                               <a href="#">
+                                   <img src="images/hotel/07.png"/>
+
+                               </a>
+                               <h3 class="detail_title">
+                                   <a href="#">
+                                       <span class="x_title">[三森]维也纳酒店</span>
+                                       <span class="short_title">钟点房3小时，房型4选1，免费WiFi，欢迎入住</span>
+                                   </a>
+                               </h3>
+                               <p class="deal_tile_title">
+                                       <span class="tile_price">
+                                           ￥<strong>78</strong>
+                                       </span>
+                                       <span class="value">
+                                           门店价
+                                           <del>
+                                               <span>￥</span>118
+                                           </del>
+                                       </span>
+                                       <span class="sales">
+                                           已售<strong class="num">167</strong>
+                                       </span>
+
+                               </p>
+                               <div class="deal_tile_extra">
+                                   <p class="extra_inner">
+                                       <a href="#">
+                                               <span class="rate_inf_bar">
+                                                   <span class="rate_stars"></span>
+                                               </span>
+                                           <span class="rate_count">48人评价</span>
+                                       </a>
+                                   </p>
+                               </div>
+                           </div>
+                           <div class="deal_tile">
+                               <a href="#">
+                                   <img src="images/hotel/08.png"/>
+
+                               </a>
+                               <h3 class="detail_title">
+                                   <a href="#">
+                                       <span class="x_title">[白鹿原]天伦公寓</span>
+                                       <span class="short_title">豪华大床房（含空调）钟点房4小时，提供免费WiFi</span>
+                                   </a>
+                               </h3>
+                               <p class="deal_tile_title">
+                                       <span class="tile_price">
+                                           ￥<strong>48</strong>
+                                       </span>
+                                       <span class="value">
+                                           门店价
+                                           <del>
+                                               <span>￥</span>108
+                                           </del>
+                                       </span>
+                                       <span class="sales">
+                                           已售<strong class="num">77</strong>
+                                       </span>
+
+                               </p>
+                               <div class="deal_tile_extra">
+                                   <p class="extra_inner">
+                                       <a href="#">
+                                               <span class="rate_inf_bar">
+                                                   <span class="rate_stars"></span>
+                                               </span>
+                                           <span class="rate_count">32人评价</span>
+                                       </a>
+                                   </p>
+                               </div>
+                           </div>
+
+
+                       </div>
+                   </div>
+                   <div class="category_floor_footer cf">
+                       <a href="#">
+                               <span>
+                                   更多酒店团购，请点击查看
+                                   <i class="more_icon"></i>
+                               </span>
+                       </a>
+
+                   </div>
+               </div>
+
+
+           </div>
+
+       </div>
+       <!--底部分类-->
+       <div class="boot_nav cf">
+           <div class="holy_reco">
+               <div>
+                   <ul class="nav_small cf">
+                       <li style="background-color: #ddd;"><a href="#">团购分类</a></li>
+                       <li><a href="#">热门地标</a></li>
+                       <li><a href="#">今日新单</a></li>
+                       <li><a href="#">周边城市</a></li>
+                       <li><a href="#">品牌推荐</a></li>
+                       <li><a href="#">专题推荐</a></li>
+                       <li><a href="#">品类推荐</a></li>
+                       <li><a href="#">友情链接</a></li>
+                   </ul>
+               </div>
+               <div class="holy_reco_content">
+                   <a href="#">美食团购</a>
+                   <a href="#">电影团购</a>
+                   <a href="#">快乐娱乐团购</a>
+                   <a href="#">旅游团购</a>
+                   <a href="#">生活服务团购</a>
+                   <a href="#">购物团购</a>
+                   <a href="#">丽人团购</a>
+                   <a href="#">团购评论</a>
+                   <a href="#">品牌团购</a>
+                   <a href="#">专题团购</a>
+                   <a href="#">美团团购</a>
+               </div>
+           </div>
+
+       </div>
+       <div class="page_foot" style="min-height: 298px;">
+           <div class="site_outer" >
+               <div class="site_info">
+                   <div class="site_info_items">
+                       <h3>获取更新</h3>
+                       <ul>
+                           <li><a href="#">iphone/Andriod</a></li>
+                           <li><a href="#">美团QQ空间</a></li>
+                           <li><a href="#">美团新浪微博</a></li>
+                           <li><a href="#">sitemap</a></li>
+                           <li><a href="#">RSS订阅</a></li>
+
+                       </ul>
+                   </div>
+                   <div class="site_info_items">
+                       <h3>商务合作</h3>
+                       <ul>
+                           <li><a href="#">商家合作</a></li>
+                           <li><a href="#">美团商家营销平台</a></li>
+                           <li><a href="#">到店餐饮代理商招募</a></li>
+                           <li><a href="#">市场合作</a></li>
+                           <li><a href="#">美团联盟</a></li>
+                           <li><a href="#">美团云</a></li>
+                           <li><a href="#">廉正邮箱</a></li>
+                           <li><a href="#">聚宝盆餐饮开放平台</a></li>
+                           <li><a href="#">美团点评智能收银机</a></li>
+                           <li><a href="#">点餐秒付合作申请</a></li>
+
+                       </ul>
+                   </div>
+                   <div class="site_info_items">
+                       <h3>公司信息</h3>
+                       <ul>
+                           <li><a href="#">关于美团</a></li>
+                           <li><a href="#">美团承诺</a></li>
+                           <li><a href="#">媒体报道</a></li>
+                           <li><a href="#">加入我们</a></li>
+                           <li><a href="#">法律声明</a></li>
+                           <li><a href="#">用户协议</a></li>
+                           <li><a href="#">隐私政策</a></li>
+                           <li><a href="#">商户服务协议</a></li>
+                           <li><a href="#">美团点评餐饮安全管理办法</a></li>
+                           <li><a href="#">营业执照</a></li>
+                       </ul>
+                   </div>
+                   <div class="site_info_items">
+                       <h3>用户帮助</h3>
+                       <ul>
+                           <li><a href="#">申请退款</a></li>
+                           <li><a href="#">查看美团券密码</a></li>
+                           <li><a href="#">常见问题</a></li>
+                           <li><a href="#">开放API</a></li>
+                           <li><a href="#">反诈骗公告</a></li>
+
+                       </ul>
+                   </div>
+                   <div class="site_info_items site_info_items_service">
+                       <div class="service_content">
+                           <i class="hotline"></i>
+                           <p class="contact_name">客服电话</p>
+                           <p class="contact_info">
+                               <span class="contact_num">10107888</span>
+                               <span class="contact_time">(9:00-23:00)</span>
+                           </p>
+                           <p class="desc">退款、退换货、查看美团券</p>
+                           <p class="reference"><a href="#">参考教程，轻松搞定！</a></p>
+                       </div>
+
+                   </div>
+                   <div class="cf"></div>
+               </div>
+           </div>
+           <div class="copyright">
+               <p class="cop_num">
+                   ©
+                   <span>2017</span>
+                   <a href="#">美团网团购</a>meituan.com
+                   <a href="#">京ICP证070791号</a>|
+                   <a href="#">京ICP备10211739号</a>|
+                   <a href="#">电子公告服务规则</a>
+               </p>
+               <div>
+                   <a href="#">广播电视节目制作经营许可证（京）字第03889号</a>
+                   <a href="#">
+                       <img  src="images/copright.png"/>
+                       <p>京公网安备11010502025545</p>
+                   </a>
+               </div>
+           </div>
+           <ul class="cert cf">
+               <li><a href="#" class="cert_1 ">经营性网站备案信息</a></li>
+               <li><a href="#" class="cert_2"></a></li>
+               <li><a href="#" class="cert_3"></a></li>
+               <li><a href="#" class="cert_4"></a></li>
+           </ul>
+       </div>
+
+
+
+
+
+<script src="js/index.js" type="text/javascript"></script>
+</body>
+</html>
